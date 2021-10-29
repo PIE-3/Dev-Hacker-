@@ -1,15 +1,13 @@
+const express = require('express');
+const app = express();
+const mongoose = require('mongoose');
 
-var express = require('express');
-var app = express();
-const db = require('./db');
-const routes = require('./routes/routes');
-
-app.get('/', function (req, res) {
-  res.send('Hello World!');
-});
+//connection with database
+const DB = 'mongodb+srv://sheetal:electrahacking@cluster0.mwyoc.mongodb.net/roomRental?retryWrites=true&w=majority';
+mongoose.connect(DB,{
+}).then(()=>{
+    console.log("Hey Dev-Hackers, your Database connection is Successful!");
+}).catch((err)=> console.log(err));
 
 
-app.listen(3000, function () {
-  console.log('Example app listening on port 3000!');
-});
-
+app.listen(4000, () => console.log("Hey Dev-Hackers , your server is created successfully!"));
