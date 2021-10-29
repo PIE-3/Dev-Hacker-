@@ -2,7 +2,8 @@ const Rooms = require("../models/rooms");
 const express = require('express');
 const router = express.Router();
 
-const getData = (req,res,next)=>{
+//post api
+const postData = (req,res,next)=>{
     let rooms = new Rooms({
         location: req.body.location
     })
@@ -15,5 +16,17 @@ const getData = (req,res,next)=>{
     })
 }
 
-router.post('/getData',getData)
+//get api
+const getData = (req,res,next)=>{
+    Rooms.find()
+    .then(res=>{
+        console.log(res);
+    })
+    .catch(err=>{
+        console.log(err);
+    })
+}
+
+router.post('/postData',postData);
+router.get('/getData',getData);
 module.exports = router;
