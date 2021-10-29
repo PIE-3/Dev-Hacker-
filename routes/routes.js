@@ -8,16 +8,12 @@ const getData = (req,res,next)=>{
     })
     rooms.save()
     .then(res=>{
-        res.json({
-            message : "Rooms Data added successfully"
-        })
+        console.log("your room is created")
     })
     .catch(err=>{
-        res.json({
-            message: "There is some issue"
-        })
+        console.log(err);
     })
 }
 
-router.post('/getData',getData);
+router.post('/getData',getData)
 module.exports = router;
