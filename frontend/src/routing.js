@@ -10,7 +10,7 @@ export default function Routing(){
                 <Switch>
                     <Route exact path="/" component={MainPage} ></Route>
                     <Route  path="/all-rooms"  component={Buy} ></Route>
-                    <Route path="/" component={Sell}> </Route>
+                    <Route path="/get-details-of-owner" component={Sell}></Route>
                 </Switch>
             </BrowserRouter>
         </div>

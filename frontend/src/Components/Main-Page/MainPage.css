@@ -13,7 +13,7 @@
     width: 100%;
     height: 100vh;
 }
-button{
+.search-button, .add-button {
    background-color: rgb(61, 86, 178) !important;
    color: white !important;
    outline: none !important;
