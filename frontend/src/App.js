@@ -1,6 +1,7 @@
 
 import { Switch, Route,  BrowserRouter  } from 'react-router-dom'
 import MainPage from './Components/Main-Page/MainPage'
+import Buy from './Components/Buy/Buy'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
       <BrowserRouter>
 
        <Switch>
-       <Route path="/" component={MainPage} ></Route>
+       <Route path="/" component={Buy} ></Route>
        </Switch>
        
       </BrowserRouter>

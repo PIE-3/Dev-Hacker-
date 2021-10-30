@@ -1,0 +1,31 @@
+.Layout{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(128 128 128 / 42%);
+    height: 100%;
+    width: 100%;
+}
+
+.row-list{
+    border-left: 2px solid rgba(128, 128, 128, 0.616);
+}
+
+.image{
+    height: 150px ;
+    width: 150px ;
+    padding: 10px ;
+}
+
+.Room-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.555);
+}
+
+.content-style{
+    padding: 20px;
+    
+}
