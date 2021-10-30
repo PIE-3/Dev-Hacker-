@@ -21,10 +21,10 @@ function MainPage(){
 
                 <div className="row w-100 text-center align-items-start g-3">
                     <div className="col-lg-6 col-sm-12">
-                        <button className="btn search-button rounded-pill">Search Room</button>
+                        <button className="btn search-button rounded-pill">For Tenants</button>
                     </div>
                     <div className="col-lg-6 cik-sm-12">
-                        <button className="btn add-button rounded-pill">For Room Owners</button>
+                        <button className="btn add-button rounded-pill">For Owners</button>
                     </div>
                 </div>
             </div>
