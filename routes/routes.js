@@ -2,7 +2,7 @@ const Rooms = require("../models/rooms");
 const express = require('express');
 const router = express.Router();
 
-//post api
+//post api rooms
 const postData = (req,res,next)=>{
     let rooms = new Rooms({
         location: req.body.location
