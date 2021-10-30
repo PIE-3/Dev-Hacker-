@@ -6,10 +6,10 @@ import './MainPage.css';
 function MainPage(){
     return(
         <div className="row front-container p-5 w-100 align-items-center">
-            <div className="col-lg-6 col-sm-12 text-center">
+            <div className="col-md-6 col-sm-12 text-center">
                 <img  src={front} alt="" />
             </div>
-            <div className="col-lg-6 col-sm-12  ">
+            <div className="col-md-6 col-sm-12  ">
                 <div className="row h-25 text-center align-items-start project-name">                    
                     <h1 >PROJECT NAME</h1>
                 </div>
