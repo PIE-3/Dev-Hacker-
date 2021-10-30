@@ -15,31 +15,32 @@ function Buy(){
                  <h4> Filters </h4>
 
                 <div className="filter-spacing">
-                    <div>          PG        </div> 
-                    <div>         Hostel     </div>
+                
+                    <div>       <input type="checkbox" />   PG        </div> 
+                    <div>        <input type="checkbox" />   Hostel     </div>
                  </div>
 
                  <div className="filter-spacing">
                     <div>         Price      </div>
-                    <div>        2000       </div>
-                    <div>        5000       </div>
-                    <div>        8000       </div>
+                    <div>      <input type="checkbox" />    2000       </div>
+                    <div>     <input type="checkbox" />     5000       </div>
+                    <div>      <input type="checkbox" />    8000       </div>
                  </div>
 
                  <div className="filter-spacing">
-                     <div>         Girls      </div>
-                     <div>         Boys       </div>
+                     <div>     <input type="checkbox" />      Girls      </div>
+                     <div>       <input type="checkbox" />    Boys       </div>
                  </div>
 
                  <div className="filter-spacing">
-                     <div>         Veg        </div>
-                     <div>         Non-Veg    </div>
-                     <div>         Both        </div>
+                     <div>       <input type="checkbox" />    Veg        </div>
+                     <div>        <input type="checkbox" />   Non-Veg    </div>
+                     <div>        <input type="checkbox" />   Both        </div>
                  </div>
 
                  <div>
-                     <div>      Single-Seated      </div>
-                     <div>      Double-Seated      </div> 
+                     <div>   <input type="checkbox" />     Single-Seated      </div>
+                     <div>     <input type="checkbox" />   Double-Seated      </div> 
                  </div>
 
                </ul>
