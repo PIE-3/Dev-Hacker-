@@ -1,9 +1,11 @@
-import React from "react";
+import React ,{useState} from "react";
 import {Link} from 'react-router-dom'
 import front from './../../assets/undraw.png';
 import './MainPage.css';
 
 function MainPage(){
+
+
     return(
         <div className="row front-container p-5 w-100 align-items-center">
             <div className="col-md-6 col-sm-12 text-center">

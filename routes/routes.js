@@ -5,7 +5,7 @@ const router = express.Router();
 //post api rooms
 const postData = (req,res,next)=>{
     let rooms = new Rooms({
-        name: req.body.location,
+        name: req.body.name,
         phoneNumber : req.body.phoneNumber,
         whatsAppNumber : req.body.whatsAppNumber,
         address : req.body.address,
