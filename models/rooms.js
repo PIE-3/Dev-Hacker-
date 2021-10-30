@@ -6,7 +6,7 @@ const roomsSchema = new Schema({
         type:String
     },
     phoneNumber:{
-        type:String
+        type:Number
     },
     whatsAppNumber:{
         type:String
@@ -15,8 +15,23 @@ const roomsSchema = new Schema({
         type:String
     },
     zipcode:{
+        type:Number
+    },
+    rent:{
         type:String
     },
+    category:{
+        type:String
+    },
+    description:{
+        type:String
+    },
+    seated:{
+        type:String
+    },
+    forGender:{
+        type:String
+    }
     
 })
 

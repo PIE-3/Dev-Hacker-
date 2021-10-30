@@ -5,26 +5,36 @@ const router = express.Router();
 //post api rooms
 const postData = (req,res,next)=>{
     let rooms = new Rooms({
-        location: req.body.location
+        name: req.body.location,
+        phoneNumber : req.body.phoneNumber,
+        whatsAppNumber : req.body.whatsAppNumber,
+        address : req.body.address,
+        zipcode : req.body.zipcode,
+        rent : req.body.rent,
+        category : req.body.category,
+        description : req.body.description,
+        seated : req.body.seated,
+        forGender : req.bodyforGender
     })
-    rooms.save()
-    .then(res=>{
-        console.log("your room is created")
-    })
-    .catch(err=>{
-        console.log(err);
+    rooms.save((err,doc)=>{
+        if(err){
+            console.log(err);
+        }else{
+            res.send(doc);
+        }
     })
 }
 
 //get api
 const getData = (req,res,next)=>{
-    Rooms.find()
-    .then(res=>{
-        console.log(res);
+    Rooms.find((err,doc)=>{
+        if(err){
+            console.log(err);
+        }else{
+            res.send(doc);
+        }
     })
-    .catch(err=>{
-        console.log(err);
-    })
+    
 }
 
 router.post('/postData',postData);
