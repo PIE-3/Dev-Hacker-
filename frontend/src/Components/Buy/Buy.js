@@ -10,7 +10,6 @@ function Buy(){
       <div>
 
         <div className="Layout">
-
              <div className="col-xs-12 col-sm-3 col-md-3 col-lg-4 col-xl-4">
                <ul className="List">
                  <h4> Filters </h4>
@@ -26,27 +25,22 @@ function Buy(){
                  <div>         Non-Veg    </div>
                  <div>         Both        </div>
                  <div>      Single-Seated      </div>
-                 <div>      Double-Seated      </div>
-                
+                 <div>      Double-Seated      </div>  
                </ul>
              </div>
-
              <div className="row row-list">
 
                <div className="Room-row">
-                 <div>
-                    <img className="image" src={room1}></img>
-                 </div>
-               
-
-                <div className="content-style"> 
-                       <div>Price</div>
-                       <div>Address  
-                         dkcnkadjchbvgdcsjbhnask xmasxlaśxmksjabchjvdc bdn cm
-                       </div>
-                </div>
+                    <div>
+                        <img className="image" src={room1}></img>
+                    </div>
+                    <div className="content-style"> 
+                        <div>Price</div>
+                        <div>Address  
+                            dkcnkadjchbvgdcsjbhnask xmasxlaśxmksjabchjvdc bdn cm
+                        </div>
+                    </div>
                </div>
-
                <div className="Room-row">
                  <div>
                     <img className="image" src={room1}></img>
