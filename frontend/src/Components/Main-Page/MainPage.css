@@ -1,0 +1,10 @@
+
+.image{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-fill{
+    color: white;
+    background-color: blue;
+}
