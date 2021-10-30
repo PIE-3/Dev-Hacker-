@@ -22,11 +22,13 @@ function MainPage(){
                 <div className="row w-100 text-center align-items-start g-3">
                     <div className="col-lg-6 col-sm-12">
                         <Link to="/all-rooms">
-                        <button className="btn search-button rounded-pill">For Tenants</button>
+                            <button className="btn search-button rounded-pill">For Tenants</button>
                         </Link>
                     </div>
                     <div className="col-lg-6 cik-sm-12">
-                        <button className="btn add-button rounded-pill">For Owners</button>
+                        <Link to="/get-details-of-owner">
+                            <button className="btn add-button rounded-pill">For Owners</button>
+                        </Link>
                     </div>
                 </div>
             </div>
