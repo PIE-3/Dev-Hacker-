@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sell.css'
 
-function Sell(){
+export default  function Sell(){
     return(
         <>
         <div className="text-center p-4 ">
@@ -94,4 +94,3 @@ function Sell(){
     )
 }
 
-export default Sell;

@@ -14,7 +14,8 @@ const postData = (req,res,next)=>{
         category : req.body.category,
         description : req.body.description,
         seated : req.body.seated,
-        forGender : req.bodyforGender
+        forGender : req.bodyforGender,
+        image:req.body.image
     })
     rooms.save((err,doc)=>{
         if(err){

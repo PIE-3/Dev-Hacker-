@@ -5,6 +5,9 @@ const roomsSchema = new Schema({
     name:{
         type:String
     },
+    image:{
+        type:String
+    },
     phoneNumber:{
         type:Number
     },

@@ -3,6 +3,8 @@ const app = express();
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const roomRoute = require('./routes/routes');
+const cors = require('cors');
+app.use(cors());
 //connection with database
 const DB = 'mongodb+srv://sheetal:electrahacking@cluster0.mwyoc.mongodb.net/roomRental?retryWrites=true&w=majority';
 

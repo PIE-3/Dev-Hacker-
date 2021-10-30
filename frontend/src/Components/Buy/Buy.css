@@ -3,41 +3,78 @@
     flex-direction: row;
     justify-content: center;
     padding: 5px;
-    background-color:  rgb(219 220 222 / 23%);;
-    height: 100%;
+    background-color:  white;
+    height: 100vh;
     width: 100%;
 }
-
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    height: 98%;
+    position: fixed;
+    overflow: hidden;
+}
 .row-list{
-    border-left: 2px solid rgb(113 154 237 / 98%);;
+    border-left: 2px solid rgb(113 154 237 / 98%);
+}
+.filter-container{
+    border-left: 3px solid rgb(113 154 237 / 98%) !important;
 }
 
 .filter-spacing{
-    padding: 5px;
-    border-bottom: 1px solid grey;
+    
+    border-bottom: 1px solid rgb(230, 230, 230);
 }
 
 .List{
     justify-content: center;
     align-items: center;
-    display: grid;
+    /* display: grid; */
     padding-top: 25px;
+    
 }
-
+.all-list-container{
+    overflow-y: scroll;
+}
+.all-list-container::-webkit-scrollbar {
+    display: none;
+  }
+  
 .image{
-    height: 150px ;
-    width: 150px ;
+    height: 180px ;
+    width: 100% !important;
     padding: 10px ;
+   
 }
-
+.availablity-headline{
+    color: rgb(61, 86, 178) ;
+    
+}
 .Room-row{
     display: flex;
     flex-direction: row;
     align-items: center;
-    border-bottom: 1px solid rgb(96 88 231);
+    border-bottom: 1px solid ;
+    border-color: rgb(230, 230, 230);
+    cursor: pointer;
 }
-
+.rent-container{
+    background-color: rgba(92, 123, 234, 0.295);
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+    padding-top:1% !important;
+    padding-bottom: 1.5% !important;
+}
 .content-style{
     padding: 20px;
-    
+    margin-left: 1%;
 }
+.view-more-button{
+    border:3px solid rgb(61, 86, 178) !important;
+    color: rgb(61, 86, 178) !important;
+    outline: 0 !important;
+}
+.view-more-button:hover{
+    background-color: rgb(61, 86, 178) ;
+    color: white !important;
+}
+
