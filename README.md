@@ -8,3 +8,6 @@ Benefits of our app-
 
 Students will be able to search for their room according to their need. We have added many filters such as type of mess(veg, non - veg), Wifi availability, price and many more.
 On the other hand the owners would easily find their tenants without any hard work.
+
+Detailed eplanation is given in below ppt - 
+https://docs.google.com/presentation/d/1fmt75LgjsUUoaXx9dc2DxJIoemZNx6VR/edit?usp=sharing&ouid=111160805685017768331&rtpof=true&sd=true
