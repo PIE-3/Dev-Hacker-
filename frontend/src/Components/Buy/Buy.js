@@ -2,7 +2,7 @@ import React from 'react'
 import './Buy.css'
 import 'react-bootstrap'
 import room1 from './../../assets/room1.png'
-
+import {Link} from 'react-router-dom'
 
 function Buy(props){
     console.log(props.rooms)
@@ -11,6 +11,7 @@ function Buy(props){
         return(
             rooms.map((room,index)=>{
                 return(
+                            <Link to="/product-1-detail">
                                 <div className="Room-row p-3" key={room._id}>
                                     <div className="row w-100 align-items-center">
                                         <div className="col-lg-2 col-sm-12 col-md-5">
@@ -37,6 +38,8 @@ function Buy(props){
                                     </div>
                                     
                                 </div>
+                            </Link>
+
                    
                 )
 

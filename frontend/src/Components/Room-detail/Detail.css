@@ -1,0 +1,31 @@
+.rent{
+    width: 20%;
+    color: rgb(4, 55, 236);
+    font-weight: bold;
+}
+.word{
+    font-size: larger;
+    font-weight: 500;
+   margin-left: 3%;
+}
+.room-image{
+    height: 87vh;
+}
+.whatsapp{
+    background-color: #008549 !important;
+  color: white !important;
+  font-weight: 500 !important;
+  ;
+}
+.phone{
+    background-color: rgb(104, 104, 218) !important;
+    color: white !important;
+    font-weight: 500 !important;
+}
+.mail{
+    background-color: #e6665d !important;
+    color: white !important;
+    font-weight: 500 !important;
+    
+    
+}
