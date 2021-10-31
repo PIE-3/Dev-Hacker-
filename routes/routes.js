@@ -27,6 +27,7 @@ const postData = (req,res,next)=>{
 }
 
 //get api
+//(all api's updated)
 const getData = (req,res,next)=>{
     Rooms.find((err,doc)=>{
         if(err){
