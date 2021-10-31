@@ -26,7 +26,7 @@ route.post('/api/rooms', (req,res)=>{
     room
         .save(room)
         .then(data => {
-            //res.send(data)
+            //here we redirect the data i.e sendig the data,res.send(data)
             res.redirect('/');
         })
         .catch(err =>{
@@ -37,4 +37,4 @@ route.post('/api/rooms', (req,res)=>{
 
 });
 
-module.exports = route
+module.exports = route;
