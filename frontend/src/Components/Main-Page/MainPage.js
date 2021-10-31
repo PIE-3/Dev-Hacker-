@@ -13,7 +13,7 @@ function MainPage(){
             </div>
             <div className="col-md-6 col-sm-12  ">
                 <div className="row h-25 text-center align-items-start project-name">                    
-                    <h1 >PROJECT NAME</h1>
+                    <h1 >RENTAL-ROOM-WORLD</h1>
                 </div>
                 <div className="row h-25 text-center align-items-end">                    
                     <h2 className="text-secondary">Find the Best Pg, Hostel for you</h2>
